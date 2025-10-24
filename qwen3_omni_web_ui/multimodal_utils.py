@@ -1,5 +1,4 @@
 # multimodal_utils.py
-
 import base64
 import mimetypes
 import os

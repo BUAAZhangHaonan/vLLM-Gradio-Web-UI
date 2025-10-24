@@ -1,5 +1,4 @@
-# web_ui.py (Updated)
-
+# web_ui.py
 import gradio as gr
 import os
 from typing import Generator
@@ -66,6 +65,7 @@ with gr.Blocks(theme=gr.themes.Soft(primary_hue="blue"), title="vLLM Omni Chat")
     api_history_state = gr.State([])
 
     gr.Markdown("# 🤖 vLLM Qwen3-Omni 多模态聊天界面")
+    gr.Markdown("![Qwen3-Omni](images/qwen3-omni-logo.png)")
 
     chatbot = gr.Chatbot(
         [],
@@ -73,7 +73,7 @@ with gr.Blocks(theme=gr.themes.Soft(primary_hue="blue"), title="vLLM Omni Chat")
         type="messages",
         height=600,
         render_markdown=True,
-        avatar_images=(("user.png"), ("bot.png"))
+        avatar_images=(("images/User.png"), ("images/Qwen.png"))
     )
 
     with gr.Row():

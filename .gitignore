@@ -1,8 +1,5 @@
 .vscode
 __pycache__
-*.mp4
-*.png
-*.jpg
 
 *.obj
 *.mtl
