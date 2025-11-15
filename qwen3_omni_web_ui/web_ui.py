@@ -8,7 +8,7 @@ from vllm_client import VLLMClient
 from multimodal_utils import process_files
 
 # --- 配置 ---
-VLLM_BASE_URL = "http://172.17.43.70:8000/v1"
+VLLM_BASE_URL = "http://172.17.43.70:8080/v1"
 VLLM_API_KEY = "g203"
 VLLM_MODEL_NAME = "qwen3-omni"
 
